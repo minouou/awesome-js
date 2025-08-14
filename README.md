@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+I'm curating [Best of AI](https://github.com/sarahofai/best-of-ai). support me with a ⭐
+
 <!--
 **sarahofai/sarahofai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
