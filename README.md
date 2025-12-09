@@ -1,7 +1,8 @@
 ## Hi there 👋
 
-I'm curating [Best of AI](https://github.com/sarahofai/best-of-ai). support me with a ⭐
+I'm curating [Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding). support me with a ⭐
 
+- *previously [Best of AI](https://github.com/sarahofai/best-of-ai)*
 <!--
 **sarahofai/sarahofai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
