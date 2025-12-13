@@ -1,9 +1,9 @@
 ## Hi there 👋
 
-I'm curating [Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding). support me with a ⭐
+I'm curating [Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools). support me with a ⭐
 
-- *previously [Best of AI](https://github.com/sarahofai/best-of-ai)*
-<!--
+- *previously [Best of AI](https://github.com/sarahofai/best-of-ai)*, [Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding).
+<!--[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)
 **sarahofai/sarahofai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
