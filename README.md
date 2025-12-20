@@ -1,8 +1,8 @@
 ## Hi there 👋
 
-I'm curating [Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools). support me with a ⭐
+I'm curating [Awesome Workflow Automation](https://github.com/dariubs/awesome-workflow-automation). support me with a ⭐
 
-- *previously [Best of AI](https://github.com/sarahofai/best-of-ai)*, [Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding).
+- *previously [Best of AI](https://github.com/sarahofai/best-of-ai), [Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding),[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)*
 <!--[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)
 **sarahofai/sarahofai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
