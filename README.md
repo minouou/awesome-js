@@ -1,3 +1,194 @@
+# Awesome JS  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+A curated collection of awesome **JavaScript** libraries, tools, runtimes, resources, and shiny things — across **browser**, **Node.js**, **Deno**, **Bun**, **edge/serverless**, **desktop**, and **mobile**.
+
+> Scope: anything primarily built for JavaScript/TypeScript ecosystems (not just browser-side).
+
+* [Awesome JS](#awesome-js)
+  * [Runtimes](#runtimes)
+  * [Package Managers](#package-managers)
+  * [Monorepo & Workspace Tools](#monorepo--workspace-tools)
+  * [Module Systems](#module-systems)
+  * [Build Tools](#build-tools)
+    * [Transpilers](#transpilers)
+    * [Bundlers](#bundlers)
+    * [Minimizers](#minimizers)
+  * [Type Checking & Validation](#type-checking--validation)
+  * [Testing](#testing)
+    * [Test Runners](#test-runners)
+    * [Assertion & Mocking](#assertion--mocking)
+    * [E2E / Browser Automation](#e2e--browser-automation)
+    * [Coverage](#coverage)
+  * [Code Quality](#code-quality)
+  * [Documentation](#documentation)
+  * [Frontend](#frontend)
+    * [UI Frameworks](#ui-frameworks)
+    * [State Management](#state-management)
+    * [Data Visualization](#data-visualization)
+    * [Editors](#editors)
+    * [Animations](#animations)
+    * [Maps](#maps)
+  * [Backend](#backend)
+    * [Web Frameworks](#web-frameworks)
+    * [API Clients & Data Fetching](#api-clients--data-fetching)
+    * [Authentication](#authentication)
+    * [ORM & Databases](#orm--databases)
+    * [Queues & Jobs](#queues--jobs)
+    * [WebSockets](#websockets)
+    * [CMS](#cms)
+  * [Utilities](#utilities)
+    * [Files](#files)
+    * [Functional Programming](#functional-programming)
+    * [Reactive Programming](#reactive-programming)
+    * [Data Structures](#data-structures)
+    * [Date & Time](#date--time)
+    * [String](#string)
+    * [Number](#number)
+    * [Storage](#storage)
+    * [Color](#color)
+    * [I18n & L10n](#i18n--l10n)
+    * [Control Flow](#control-flow)
+    * [Routing](#routing)
+    * [RegExp](#regexp)
+    * [Security](#security)
+    * [Logging](#logging)
+    * [Benchmarking](#benchmarking)
+  * [Cross-Platform](#cross-platform)
+    * [CLI](#cli)
+    * [Desktop Apps](#desktop-apps)
+    * [Mobile Apps](#mobile-apps)
+  * [AI & ML](#ai--ml)
+  * [Generative AI](#generative-ai)
+  * [Articles & Posts](#articles--posts)
+* [Worth Reading](#worth-reading)
+* [Other Awesome Lists](#other-awesome-lists)
+* [Contributing](#contributing)
+* [License](#license)
+
+----
+
+## Runtimes
+*Where JavaScript runs.*
+
+* [Node.js](https://nodejs.org/) - Server-side JavaScript runtime.
+* [Deno](https://deno.com/runtime) - Secure runtime with modern tooling built-in.
+* [Bun](https://bun.sh/) - Fast runtime + bundler + package manager.
+* [Cloudflare Workers](https://developers.cloudflare.com/workers/) - Edge/serverless JavaScript runtime.
+* [Electron](https://www.electronjs.org/) - Build cross-platform desktop apps with JavaScript.
+* [React Native](https://reactnative.dev/) - Build native mobile apps with JavaScript/TypeScript.
+
+## Package Managers
+*Host libraries and provide tools for fetching and packaging them.*
+
+* [npm](https://www.npmjs.com/) - Package manager for JavaScript.
+* [yarn](https://yarnpkg.com/) - Fast, reliable dependency management.
+* [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager.
+* [bun](https://bun.sh/) - Runtime + package manager.
+* [jspm](https://github.com/jspm/jspm-cli) - Package management & import maps tooling.
+
+<details>
+<summary>Legacy / historical</summary>
+
+* [Bower](https://github.com/bower/bower) - Legacy front-end package manager.
+* [component](https://github.com/componentjs/component) - Client package management for building web apps.
+* [Ender](https://github.com/ender-js/Ender) - The no-library library.
+</details>
+
+## Monorepo & Workspace Tools
+*Manage multiple packages/apps in one repo.*
+
+* [Nx](https://nx.dev/) - Smart, fast monorepos for JS/TS.
+* [Turborepo](https://turbo.build/repo) - High-performance build system for monorepos.
+* [Lerna](https://lerna.js.org/) - Monorepo tooling (often combined with npm/yarn/pnpm workspaces).
+* [Changesets](https://github.com/changesets/changesets) - Versioning + changelogs for monorepos.
+* [Bit](https://github.com/teambit/bit) - Create, find, and reuse components across apps.
+
+## Module Systems
+*How code is loaded (ESM/CJS + loaders).*
+
+* [ES Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) - Standard module system for modern JS.
+* [SystemJS](https://github.com/systemjs/systemjs) - Dynamic module loader for browsers and Node.
+* [RequireJS](https://github.com/requirejs/requirejs) - AMD module loader.
+* [browserify](https://github.com/substack/node-browserify) - Bundle Node-style `require()` for browsers.
+
+## Build Tools
+
+### Transpilers
+*Convert modern JS/TS syntax into target environments.*
+
+* [SWC](https://swc.rs/) - Fast compiler platform (JS/TS).
+* [Babel](https://github.com/babel/babel) - JavaScript compiler.
+
+### Bundlers
+*Bundle modules and assets.*
+
+* [Vite](https://vite.dev/) - Modern dev server + bundler.
+* [webpack](https://github.com/webpack/webpack) - Mature bundler for complex apps.
+* [Rollup](https://github.com/rollup/rollup) - Great for libraries (ESM-first).
+* [Parcel](https://github.com/parcel-bundler/parcel) - Zero-config bundler.
+* [esbuild](https://github.com/evanw/esbuild) - Extremely fast bundler/transpiler.
+* [Microbundle](https://github.com/developit/microbundle) - Zero-config bundler for tiny modules.
+* [FuseBox](https://github.com/fuse-box/fuse-box) - A bundler that does it right.
+* [Snowpack](https://www.snowpack.dev/) - Modern dev/build tool (historically popular).
+* [bundlephobia](https://bundlephobia.com/) - Quick npm package size checker.
+
+### Minimizers
+*Minify JS for production.*
+
+* [Terser](https://github.com/terser/terser) - Minifier for ES6+.
+* [UglifyJS](https://github.com/mishoo/UglifyJS) - Classic minifier (legacy for modern syntax).
+
+## Type Checking & Validation
+
+* [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript.
+* [Flow](https://flow.org/) - Static type checker for JavaScript.
+* [Zod](https://github.com/colinhacks/zod) - TypeScript-first schema validation.
+* [Yup](https://github.com/jquense/yup) - Schema builder and validator.
+* [io-ts](https://github.com/gcanti/io-ts) - Runtime types + decoding.
+* [Ajv](https://github.com/ajv-validator/ajv) - Fast JSON Schema validator.
+
+## Testing
+
+### Test Runners
+* [Vitest](https://vitest.dev/) - Fast unit test framework powered by Vite.
+* [Jest](https://github.com/facebook/jest) - Painless JavaScript unit testing.
+* [Mocha](https://github.com/mochajs/mocha) - Flexible test framework for Node and browser.
+* [AVA](https://github.com/avajs/ava) - Futuristic JavaScript test runner.
+* [Tape](https://github.com/substack/tape) - Tap-producing test harness.
+* [QUnit](https://github.com/qunitjs/qunit) - Easy-to-use unit testing framework.
+
+### Assertion & Mocking
+* [Chai](https://github.com/chaijs/chai) - BDD/TDD assertion library.
+* [Sinon](https://github.com/sinonjs/sinon) - Spies, stubs, and mocks.
+* [Testing Library](https://testing-library.com/) - Test UI the way users interact.
+
+### E2E / Browser Automation
+* [Playwright](https://github.com/microsoft/playwright) - Automate Chromium/Firefox/WebKit.
+* [Puppeteer](https://github.com/GoogleChrome/puppeteer) - Headless Chrome/Chromium automation.
+* [Cypress](https://www.cypress.io/) - End-to-end testing framework.
+* [TestCafe](https://github.com/DevExpress/testcafe) - Automated browser testing.
+* [WebdriverIO](https://webdriver.io/) - Node.js browser/mobile automation.
+
+### Coverage
+* [Istanbul / nyc](https://github.com/istanbuljs/nyc) - Coverage reporting.
+* [c8](https://github.com/bcoe/c8) - Coverage using V8’s built-in coverage.
+
+## Code Quality
+*Format, lint, and keep code healthy.*
+
+* [ESLint](https://github.com/eslint/eslint) - Pluggable linting utility.
+* [Prettier](https://github.com/prettier/prettier) - Opinionated formatter.
+* [Biome](https://biomejs.dev/) - Fast formatter + linter (JS/TS).
+* [Standard](https://github.com/standard/standard) - JavaScript Standard Style.
+* [Husky](https://github.com/typicode/husky) - Git hooks made easy.
+* [lint-staged](https://github.com/lint-staged/lint-staged) - Run linters on staged files.
+
+## Documentation
+*Write and publish docs, API refs, and guides.*
+
+* [DevDocs](https://devdocs.io/) - Fast API documentation browser.
+* [Docusaurus](https://docusaurus.io/) - Documentation site generator.
+* [VitePress](https://vitepress.dev/) - Vite-powered docs.
 * [Docsify](https://docsify.js.org/) - Docs site without a build step.
 * [Storybook](https://storybook.js.org/) - UI component workshop + docs.
 * [typedoc](https://typedoc.org/) - TypeScript API documentation.
@@ -219,3 +410,5 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 
 # License
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, the authors have waived all copyright and related or neighboring rights to this work.
