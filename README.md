@@ -230,6 +230,7 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 * [anime.js](https://animejs.com/) - Animation engine.
 * [motion](https://motion.dev/) - Modern animation library.
 * [three.js](https://github.com/mrdoob/three.js) - 3D animations and scenes.
+* [TouchFlip3D](https://github.com/labsisouleimen/TouchFlip3D-Web) - A lightweight (3KB) 3D card flip container using pure math matrices.
 
 ### Maps
 * [Leaflet](https://github.com/Leaflet/Leaflet) - Interactive maps.
