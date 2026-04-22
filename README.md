@@ -388,6 +388,7 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 * [OpenAI SDK](https://github.com/openai/openai-node) - Official JavaScript/TypeScript library for the OpenAI API.
 * [LangChain.js](https://github.com/langchain-ai/langchainjs) - LLM application framework for JS/TS.
 * [Vercel AI SDK](https://sdk.vercel.ai/docs) - Build AI features for web apps.
+* [iota-agent-mcp](https://github.com/Scottcjn/iota-agent-mcp) - Node.js MCP server exposing 20 IOTA blockchain tools (wallet, Move CLI, on-chain queries) to LLM agents.
 
 ## Articles & Posts
 * [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript) - Clean Code ideas adapted for JS.
